@@ -20,7 +20,7 @@ footer {
 
 .links a,
 .hero .subtext,
-button {
+.sign-up {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -62,12 +62,14 @@ button {
   flex: 0 auto;
 }
 
-button {
+.sign-up {
+  display: initial;
   background-color: #3882f6;
   border-radius: 10px;
   padding: 5px 40px;
   border: 0;
   flex: 0 auto;
+  text-decoration: none;
 }
 
 .main img {
@@ -137,7 +139,7 @@ button {
     color: #fff;
 }
 
-.closing button {
+.closing .sign-up {
     border: 1px solid white;
 }
 
